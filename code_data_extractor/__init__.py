@@ -1,4 +1,5 @@
 from . import read_and_extract_data
+from . import class_data_holder
 import argparse
 
 parser = argparse.ArgumentParser(description='Read the file name')
