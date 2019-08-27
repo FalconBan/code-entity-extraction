@@ -8,6 +8,6 @@ if __name__ == "__main__":
 
     for line in lines:
         result = extractor.class_extractor(line)
-        result_2 = e_e.method_extractor(line)
+        result_2 = extractor.method_extractor(line)
         if (result_2):
             print(result_2, "\n")
